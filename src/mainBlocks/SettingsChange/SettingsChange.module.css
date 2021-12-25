@@ -1,0 +1,637 @@
+.SettingsChange {
+  background-color: #1e1f25;
+  padding: 24px 24px 0 24px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.SettingsChange .wrapTwoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock {
+  width: 60%;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl {
+  background-color: #191b21;
+  border-radius: 12px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne {
+  padding: 10px 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 12px;
+  margin-right: 13px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal img:first-child {
+  border: 2px solid #2d2f36;
+  border-radius: 50%;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal:hover span {
+  color: whitesmoke;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal:hover img:last-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal:not(hover) span {
+  color: whitesmoke;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal:not(hover) img:last-child {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Max {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Max span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 214, 50, 0.8);
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 214, 50, 0.1);
+  border-radius: 11px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input {
+  width: 100px;
+  margin: 19px 0 4px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+  background-color: #191b21;
+  outline: none;
+  border: none;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input:focus {
+  width: 100px;
+  margin: 19px 0 4px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+  background-color: #191b21;
+  outline: none;
+  border: none;
+  caret-color: #00c800;
+  text-overflow: ellipsis;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input::placeholder {
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp span {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+  position: relative;
+  left: -10px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 20px;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .change img {
+  background-color: #191b21;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .change img:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #444750;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .change img:not(hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #191b21;
+}
+
+.SettingsChange .wrapTwoBlock .wrapLeftBlock .change.transform {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-filter: hue-rotate(290deg);
+          filter: hue-rotate(290deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock {
+  width: 230px;
+  height: initial;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl {
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #34384c;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 17px 14px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .SettTrans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .SettTrans h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .SettTrans img {
+  cursor: pointer;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .SettTrans img:hover {
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .SettTrans img:not(hover) {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .Block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .Block h2 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .OneEl .Block span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .TwoElem {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 0 0 12px 12px;
+  border: 1px solid #34384c;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 14px 16px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .TwoElem .cherts {
+  background-color: white;
+  width: 12px;
+  height: 1px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .TwoElem h2 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .TwoElem span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .TwoElem:hover {
+  background: #191b21;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting {
+  margin-top: 10px;
+  border: 1px solid #34384c;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapTitl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapTitl span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .SelectBut {
+  margin-top: 7px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .SelectBut button {
+  cursor: pointer;
+  padding: 5px 20px;
+  border: 1px solid #34384c;
+  background-color: #1d1f25;
+  border-radius: 6px;
+  color: white;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .SelectBut button:hover {
+  background-color: #454753;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .SelectBut .butAS {
+  border: 1px solid #00d632;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* Hover */
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .titChec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .titChec span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos {
+  display: inline-block;
+  height: 20;
+  line-height: 28px;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos .checkboxIosSwitch {
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 34px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25%/50%;
+  vertical-align: top;
+  background: #0b0c0e;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  vertical-align: text-bottom;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos .checkboxIosSwitch:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos input[type="checkbox"] {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos input[type="checkbox"]:checked + .checkboxIosSwitch {
+  background: #00d632;
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos input[type="checkbox"]:checked + .checkboxIosSwitch:before {
+  -webkit-transform: translateX(14px);
+          transform: translateX(14px);
+}
+
+.SettingsChange .wrapTwoBlock .wrapRightBlock .wrapSetSetting .wrapChec .checkboxIos input[type="checkbox"]:not(:disabled) + .checkboxIosSwitch {
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.SettingsChange .buts button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00d632;
+  width: 60%;
+  border: none;
+  border-radius: 12px;
+  padding: 18px 0;
+  margin-top: 24px;
+  -webkit-box-shadow: 8px 8px 20px rgba(0, 214, 50, 0.12);
+          box-shadow: 8px 8px 20px rgba(0, 214, 50, 0.12);
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.SettingsChange .buts button:hover {
+  background-color: #00d63286;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.SettingsChange .buts button:not(hover) {
+  background-color: #00d632;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 1441px) {
+  .SettingsChange {
+    max-width: 50vw;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1441px) and (min-width: 1023px) {
+  .SettingsChange {
+    margin-left: 20px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Max span {
+    margin: 0 10px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapRightBlock {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .SettingsChange {
+    margin-top: 27px;
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .SettingsChange {
+    padding: 15px 20px 0 20px;
+  }
+  .SettingsChange .wrapTwoBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock {
+    width: 100%;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl {
+    margin-top: 10px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne {
+    padding: 10px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 span {
+    font-size: 12px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Obmen1 .wrapInfoVal span {
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 16px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Max span {
+    font-size: 12px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance span {
+    font-size: 12px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance h3 {
+    margin-top: 19px;
+    font-size: 18px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input {
+    width: 80px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .wrapfirsEl .elemOne .Balance .wrapInp input:focus {
+    width: 80px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock .change {
+    margin: 10px 0px;
+  }
+  .SettingsChange .wrapTwoBlock .wrapRightBlock {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 20px;
+  }
+  .SettingsChange .buts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .SettingsChange .buts button {
+    width: 100%;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .SettingsChange {
+    max-width: 670px;
+    width: 100%;
+  }
+  .SettingsChange .wrapTwoBlock .wrapLeftBlock {
+    width: 63%;
+  }
+  .SettingsChange .buts button {
+    width: 63%;
+  }
+}
+/*# sourceMappingURL=SettingsChange.module.css.map */

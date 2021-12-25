@@ -1,0 +1,81 @@
+.tooltip {
+    .wwad {
+        .tooltiptext {
+            background-color: #1d1f25;
+            position: fixed;
+            margin-top: 14px;
+            right: 75px;
+            max-width: 131px;
+            width: 100%;
+            // padding: 20px 66px 20px 20px;
+            border: 1px solid #0b0c0e;
+            box-sizing: border-box;
+            border-radius: 5px 0px 5px 5px;
+            .colorsDasd {
+                span {
+                    color: white;
+                    font-size: 14px;
+                    line-height: 120%;
+                }
+            }
+            .colorsDasd {
+                .wrapsButs {
+                    padding: 9px 0px 9px 0;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #0b0c0e;
+                    span {
+                        margin-left: 10px;
+                    }
+                    img {
+                        margin-left: 10px;
+                        border: 1px solid #2d2f36;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .wrapSelectLang {
+            img {
+                background-color: #191b21;
+                border-radius: 50%;
+                padding: 5px;
+                width: 20px;
+                border: 2px solid #21232a;
+                margin-right: 20px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .noneActiv {
+            display: none;
+        }
+    }
+}
+@media screen and(max-height:375px) {
+    .tooltip {
+        .wwad {
+            .tooltiptext {
+                height: 150px;
+                overflow: auto;
+
+                .colorsDasd {
+                    .wrapsButs {
+                        width: 100px;
+                        padding: 5px 0 5px 0;
+                        border: none;
+                    }
+                }
+            }
+            .tooltiptext::-webkit-scrollbar {
+                width: 2px;
+                background-color: #34384c;
+                border-radius: 50px;
+            }
+            .tooltiptext::-webkit-scrollbar-thumb {
+                background-color: #00d632;
+                border-radius: 50px;
+            }
+        }
+    }
+}

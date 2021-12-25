@@ -1,0 +1,45 @@
+.wrapFAQElem {
+    margin-top: 24px;
+    .nameRules {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .accordion {
+            cursor: pointer;
+            width: 100%;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 120%;
+            color: #ffffff;
+            font-weight: 500;
+            margin-right: 20px;
+        }
+    }
+    hr {
+        border: 1px solid #34384c;
+        margin: 0;
+    }
+    .wrapInfoFaQ {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 150%;
+            color: #ffffff;
+            font-weight: 400;
+        }
+    }
+}
+
+@media screen and(max-width:768px) {
+    .wrapFAQElem {
+        margin-top: 16px;
+        .nameRules {
+            .accordion {
+                font-size: 16px;
+            }
+        }
+    }
+}

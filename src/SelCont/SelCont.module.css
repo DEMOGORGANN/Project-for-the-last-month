@@ -1,0 +1,234 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip .wwad .wrapSelectLang {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 78px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 31px 8px 24px;
+  background-color: #191b21;
+  border-radius: 50px;
+}
+
+.tooltip .wwad .wrapSelectLang .elem {
+  height: 24px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.tooltip .wwad .wrapSelectLang .elem img:first-child {
+  width: 28px;
+}
+
+.tooltip .wwad .wrapSelectLang .elem img:last-child {
+  width: 9.5px;
+}
+
+.tooltip .wwad .wrapSelectLang .elem.transform {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.tooltip .wwad .wrapSelectLang span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.tooltip .wwad .wrapSelectLang:hover {
+  background-color: #23252e;
+}
+
+.tooltip .wwad .noneActiv {
+  visibility: hidden;
+  width: 135px;
+  background-color: #0b0c0e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.tooltip .wwad .noneActiv .colorsDasd .wrapsButs {
+  width: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 8px;
+}
+
+.tooltip .wwad .noneActiv .colorsDasd .wrapsButs img {
+  width: 28px;
+}
+
+.tooltip .wwad .noneActiv .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0b0c0e transparent transparent transparent;
+}
+
+.tooltip .wwad .tooltiptext {
+  width: 135px;
+  background-color: #0b0c0e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  opacity: 1;
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.tooltip .wwad .tooltiptext .colorsDasd {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.tooltip .wwad .tooltiptext .colorsDasd .wrapsButs {
+  width: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.tooltip .wwad .tooltiptext .colorsDasd .wrapsButs img {
+  width: 28px;
+}
+
+.tooltip .wwad .tooltiptext .colorsDasd:hover {
+  background-color: #282931;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.tooltip .wwad .tooltiptext .colorsDasd:not(hover) {
+  background-color: #0b0c0e;
+}
+
+.tooltipHead .wwad .wrapSelectLang {
+  padding: 8px 31px 8px 24px;
+  background-color: #1d1f27;
+  margin: 0;
+}
+
+.tooltipHead .wwad .wrapSelectLang .elem {
+  height: 24px;
+}
+
+.tooltipHead .wwad .tooltiptext {
+  bottom: -280%;
+}
+
+.tooltipHead .wwad .tooltiptext::after {
+  top: -8%;
+  left: 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.tooltipHeadGas .wwad .wrapSelectLang {
+  padding: 8px 31px 8px 24px;
+  background-color: #1d1f27;
+  margin: 0;
+}
+
+.tooltipHeadGas .wwad .wrapSelectLang .elem {
+  height: 24px;
+}
+
+.tooltipHeadGas .wwad .tooltiptext {
+  bottom: -340%;
+}
+
+.tooltipHeadGas .wwad .tooltiptext::after {
+  top: -7%;
+  left: 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.tooltipHeadVal .wwad .wrapSelectLang {
+  padding: 8px 36px 8px 29px;
+  background-color: #1d1f27;
+  margin: 0;
+}
+
+.tooltipHeadVal .wwad .wrapSelectLang .elem {
+  height: 24px;
+}
+
+.tooltipHeadVal .wwad .tooltiptext {
+  bottom: -280%;
+}
+
+.tooltipHeadVal .wwad .tooltiptext::after {
+  top: -7%;
+  left: 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .tooltip {
+    margin-bottom: 11px;
+  }
+}
+/*# sourceMappingURL=SelCont.module.css.map */

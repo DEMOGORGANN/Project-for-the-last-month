@@ -1,0 +1,260 @@
+.exchangeValue {
+  background-color: #1e1f25;
+  border-radius: 12px;
+  max-width: 360px;
+  padding: 24px 24px 29px 24px;
+}
+
+.exchangeValue .exChange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+}
+
+.exchangeValue .exChange img {
+  padding: 12.5px;
+  background-color: #191b21;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.exchangeValue .exChange img:not(hover) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #191a1f;
+}
+
+.exchangeValue .exChange img:hover {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.exchangeValue .exChange span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-left: 14px;
+}
+
+.exchangeValue .desc {
+  margin-bottom: 24px;
+}
+
+.exchangeValue .desc span {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.exchangeValue hr {
+  border: 1px solid #34384c;
+}
+
+.exchangeValue .SupportedNetworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 14px;
+}
+
+.exchangeValue .SupportedNetworks span {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 9px;
+}
+
+.exchangeValue .Network .ActivBlock {
+  margin-top: 17px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #191b21;
+  border-radius: 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 16px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.exchangeValue .Network .ActivBlock .wrapLogoName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exchangeValue .Network .ActivBlock .wrapLogoName img {
+  width: 30px;
+  border: 2px solid #2d2f36;
+  border-radius: 50%;
+}
+
+.exchangeValue .Network .ActivBlock .wrapLogoName span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+.exchangeValue .Network .ActivBlock .centrH2 {
+  width: 80px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.exchangeValue .Network .ActivBlock .centrH2 h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #5d6588;
+  background-color: #21242c;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+.exchangeValue .Network .oneBlock {
+  margin-top: 17px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.exchangeValue .Network .oneBlock .wrapLogoName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exchangeValue .Network .oneBlock .wrapLogoName img {
+  width: 30px;
+  border: 2px solid #2d2f36;
+  border-radius: 50%;
+}
+
+.exchangeValue .Network .oneBlock .wrapLogoName span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+.exchangeValue .Network .oneBlock .centrH2 {
+  width: 80px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.exchangeValue .Network .oneBlock .centrH2 h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #5d6588;
+  padding: 10px 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.exchangeValue .Network .oneBlock:hover {
+  background-color: #282931;
+}
+
+@media screen and (max-width: 768px) {
+  .exchangeValue {
+    padding: 20px 20px 30px 20px;
+  }
+  .exchangeValue .Network .oneBlock {
+    padding: 9px 16px 10px 16px;
+  }
+  .exchangeValue .Network .oneBlock .centrH2 h2 {
+    padding: 5px 16px;
+  }
+  .exchangeValue .Network .ActivBlock {
+    padding: 9px 16px 10px 16px;
+  }
+  .exchangeValue .Network .ActivBlock .centrH2 h2 {
+    padding: 5px 16px;
+  }
+  .exchangeValue .exChange span {
+    font-size: 20px;
+  }
+  .exchangeValue .SupportedNetworks span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .exchangeValue {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .exchangeValue {
+    max-width: 30vw;
+    width: 100%;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .exchangeValue {
+    max-width: 360px;
+    width: 100%;
+    margin-right: 24px;
+    max-width: none;
+  }
+}
+/*# sourceMappingURL=ExChangeValue.module.css.map */

@@ -1,0 +1,44 @@
+.wrapMainBlock {
+  padding: 30px 36px 0 40px;
+  background-color: #0b0c0e;
+}
+
+.wrapMainBlock .firstTwoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1023px) {
+  .wrapMainBlock {
+    padding: 15px 18px 0 20px;
+  }
+  .wrapMainBlock .firstTwoBlock {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .wrapMainBlock {
+    padding: 30px 36px 0 40px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapMainBlock {
+    height: calc(100% - 86px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapMainBlock {
+    padding: 30px 15px 0;
+  }
+}
+/*# sourceMappingURL=mainBlocks.module.css.map */

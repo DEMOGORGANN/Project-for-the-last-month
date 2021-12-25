@@ -1,0 +1,71 @@
+.wrapfull {
+  background-color: #0b0c0e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.wrapfull .wrapBlcok {
+  background-color: #1e1f25;
+  border-radius: 12px;
+  overflow: inherit;
+  max-width: 1150px;
+  width: 100%;
+  padding: 24px 24px 52px 24px;
+}
+
+.wrapfull .wrapBlcok .wrapFAQ {
+  margin-top: 30px;
+}
+
+.wrapfull .wrapBlcok .wrapFAQ .sad {
+  padding-right: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapfull .wrapBlcok .TitleFAQ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapfull .wrapBlcok .TitleFAQ img {
+  padding: 11px;
+  background-color: #191b21;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.wrapfull .wrapBlcok .TitleFAQ span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapfull {
+    padding: 30px 15px;
+  }
+  .wrapfull .wrapBlcok {
+    padding: 20px 12px;
+  }
+  .wrapfull .wrapBlcok .wrapFAQ .sad {
+    padding-right: 15px;
+  }
+  .wrapfull .wrapBlcok .TitleFAQ span {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=FAQ.module.css.map */

@@ -1,0 +1,529 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    animation-name: appear;
+    animation-duration: 300ms;
+    .modalDialog {
+        width: 100%;
+        border-radius: 15px 15px 15px 15px;
+        max-width: 422px;
+        background: #1e1f25;
+        position: relative;
+        margin: 0 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slide-in;
+        animation-duration: 0.5s;
+        padding: 20px 26px;
+        max-height: 500px;
+        // overflow-y: auto;
+        .wrapTitleModdal {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                color: #ffffff;
+            }
+            img {
+                filter: brightness(0.5);
+                cursor: pointer;
+            }
+            img:hover{
+                filter: brightness(1);
+            }
+        }
+        hr {
+            margin-top: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 1px;
+            background-color: #34384c;
+            border: none;
+        }
+        .scrollModal {
+            overflow-y: auto;
+            padding-right: 15px;
+            .wrapfirsEl {
+                background-color: #191b21;
+                border-radius: 12px;
+                .elemOne {
+                    padding: 10px 17px;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: space-between;
+                    .Obmen1 {
+                        span {
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: rgba(255, 255, 255, 0.65);
+                        }
+                        .wrapInfoVal {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 14px;
+                            cursor: pointer;
+                            span {
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #ffffff;
+                                margin-left: 12px;
+                                margin-right: 13px;
+                            }
+                            img:first-child {
+                                border: 2px solid #2d2f36;
+                                border-radius: 50%;
+                            }
+                            img:last-child{
+                                width: 6px;
+                                height: 4px;
+                            }
+                        }
+                        .wrapInfoVal:hover {
+                            img:last-child {
+                                transform: rotate(180deg);
+                                transition: 0.5s;
+                            }
+                        }
+                        .wrapInfoVal:not(hover) {
+                            img:last-child {
+                                transform: rotate(0deg);
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                    .Max {
+                        align-self: center;
+                        span {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: rgba(0, 214, 50, 0.8);
+                            padding: 8px 12px;
+                            border: 1px solid rgba(0, 214, 50, 0.1);
+                            border-radius: 11px;
+                        }
+                    }
+                    .Balance {
+                        text-align: right;
+                        span {
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 24px;
+                            color: rgba(255, 255, 255, 0.65);
+                        }
+                        h3 {
+                            margin: 19px 0 4px;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+
+            .TwoEl {
+                margin-top: 10px;
+                background-color: #191b21;
+                border-radius: 12px;
+                padding: 10px 16px;
+                span {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.65);
+                }
+                .valuts {
+                    margin-top: 15px;
+                    margin-bottom: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    span {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                    .valutsAndImg {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        span {
+                            margin-right: 5px;
+                            margin-left: 5px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #ffffff;
+                        }
+                        img:last-child{
+                            width: 6px;
+                            height: 4px;
+                        }
+                    }
+                    .valutsAndImg:hover {
+                        img:last-child {
+                            transform: rotate(180deg);
+                            transition: 0.5s;
+                        }
+                    }
+                    .valutsAndImg:not(hover) {
+                        img:last-child {
+                            transform: rotate(0deg);
+                            transition: 0.5s;
+                        }
+                    }
+                }
+                .InfVal {
+                    display: flex;
+                    justify-content: space-between;
+                    span {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+                }
+                .Prices {
+                    span {
+                        display: flex;
+                        justify-content: right;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                }
+                .OneCript {
+                    margin-top: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .imgAndval {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            border: 2px solid #21232a;
+                            border-radius: 50%;
+                            margin-right: 5px;
+                            width: 24px;
+                        }
+                        span {
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: rgba(255, 255, 255, 0.65);
+                        }
+                    }
+                    span {
+                        font-size: 14px;
+                        line-height: 150%;
+                        text-align: right;
+
+                        color: #ffffff;
+                    }
+                }
+            }
+            .OneEl {
+                margin-top: 15px;
+                border-radius: 12px 12px 0 0;
+                border: 1px solid #34384c;
+                box-sizing: border-box;
+                padding: 10px 17px 14px;
+                .SettTrans {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                        margin: 0;
+                    }
+                    img {
+                        cursor: pointer;
+                    }
+                    img:hover{
+                        transform: rotate(180deg);
+                        transition: .3s;
+                    }
+                    img:not(hover){
+                        transform: rotate(0deg);
+                        transition: .3s;
+                    }
+                }
+                .Block {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2 {
+                        margin: 0;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #ffffff;
+                        font-weight: 400;
+                    }
+                    span {
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .TwoElem {
+                padding-bottom: 15px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 0 0 12px 12px;
+                border: 1px solid #34384c;
+                box-sizing: border-box;
+                padding: 14px 16px;
+                h2 {
+                    margin: 0;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    font-weight: 400;
+                }
+                span {
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+            }
+            .TwoElem:hover {
+                background-color: #222329;
+            }
+            .wrapSetSetting {
+                margin-top: 30px;
+                border: 1px solid #34384c;
+                border-radius: 12px;
+                padding: 16px;
+                .wrapTitl {
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #ffffff;
+                        margin-right: 6px;
+                    }
+                }
+                .SelectBut {
+                    margin-top: 7px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    button {
+                        cursor: pointer;
+                        padding: 5px 20px;
+                        border: 1px solid #34384c;
+                        background-color: #1d1f25;
+                        border-radius: 6px;
+                        color: white;
+                    }
+                    .butAS {
+                        border: 1px solid #00d632;
+                    }
+                }
+
+                .wrapChec {
+                    margin-top: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .titChec {
+                        display: flex;
+                        align-items: center;
+                        span {
+                            font-size: 12px;
+                            line-height: 24px;
+                            color: #ffffff;
+                            margin-right: 6px;
+                        }
+                    }
+                    .checkboxIos {
+                        display: inline-block;
+                        height: 20;
+                        line-height: 28px;
+                        position: relative;
+                        user-select: none;
+                    }
+                    .checkboxIos .checkboxIosSwitch {
+                        position: relative;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        width: 34px;
+                        height: 20px;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        border-radius: 25%/50%;
+                        vertical-align: top;
+                        background: #0b0c0e;
+                        transition: 0.2s;
+                        vertical-align: text-bottom;
+                    }
+                    .checkboxIos .checkboxIosSwitch:before {
+                        content: "";
+                        position: absolute;
+                        top: 1px;
+                        left: 1px;
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background: white;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+                        transition: 0.15s;
+                    }
+                    .checkboxIos input[type="checkbox"] {
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        position: absolute;
+                        z-index: -1;
+                        opacity: 0;
+                    }
+                    .checkboxIos input[type="checkbox"]:checked + .checkboxIosSwitch {
+                        background: #00d632;
+                    }
+                    .checkboxIos input[type="checkbox"]:checked + .checkboxIosSwitch:before {
+                        transform: translateX(14px);
+                    }
+
+                    /* Hover */
+                    .checkboxIos input[type="checkbox"]:not(:disabled) + .checkboxIosSwitch {
+                        cursor: pointer;
+                        border-color: rgba(0, 0, 0, 0.3);
+                    }
+                }
+            }
+        }
+        .scrollModal::-webkit-scrollbar {
+            width: 2px;
+            background-color: #34384c;
+            border-radius: 50px;
+        }
+        .scrollModal::-webkit-scrollbar-thumb {
+            background-color: #00d632;
+            border-radius: 50px;
+        }
+        .ButLickVOke {
+            margin-top: 20px;
+
+            button {
+                background-color: #00d632;
+                border: none;
+                border-radius: 12px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #ffffff;
+                width: 100%;
+                padding: 11px 0 15px 0;
+                box-shadow: 8px 8px 20px rgba(0, 214, 50, 0.12);
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #09c434c9;
+            }
+        }
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slide-in {
+    from {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media screen and(max-width:768px) {
+    .modal {
+        .modalDialog {
+            margin-right: 15px;
+            margin-left: 15px;
+            padding-left: 14px;
+            padding-right: 14px;
+            .scrollModal {
+                padding-right: 5px;
+                .wrapfirsEl {
+                    .elemOne {
+                        .Obmen1 {
+                            span {
+                                font-size: 12px;
+                            }
+                            .wrapInfoVal {
+                                margin-top: 3px;
+                                span {
+                                    margin-left: 4px;
+                                    margin-right: 4px;
+                                    font-size: 13px;
+                                }
+                                img:last-child{
+                                    width: 6px;
+                                    height: 4px;
+                                }
+                            }
+                        }
+                        .Max {
+                            span {
+                                font-size: 12px;
+                            }
+                        }
+                        .Balance {
+                            span {
+                                font-size: 12px;
+                            }
+                            h3 {
+                                margin-top: 8px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .TwoEl{
+                    .valuts{
+                        .valutsAndImg{
+                            img:last-child{
+                                width: 6px;
+                                height: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

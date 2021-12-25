@@ -1,0 +1,40 @@
+.tooltip {
+    .wwad {
+        .tooltiptext {
+            background-color: #1d1f25;
+            position: fixed;
+            margin-top: 12px;
+            right: 0;
+            padding: 20px 66px 20px 20px;
+            border: 1px solid #0b0c0e;
+            border-radius: 5px 0 0 5px;
+            .colorsDasd {
+                margin-top: 20px;
+                span {
+                    color: white;
+                    font-size: 16px;
+                    line-height: 120%;
+                }
+            }
+            .colorsDasd:first-child {
+                margin: 0;
+            }
+            .colorsDasd:hover {
+                background-color: #21242c;
+            }
+        }
+        .noneActiv {
+            display: none;
+        }
+
+        .wrapSelectLang {
+            img {
+                padding: 10px;
+                background-color: #191b21;
+                border-radius: 12px;
+                width: 18px;
+                height: 19px;
+            }
+        }
+    }
+}

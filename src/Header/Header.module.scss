@@ -1,0 +1,381 @@
+.fullWrapHead {
+    width: 100%;
+
+    .wrapHead {
+        background-color: #0b0c0e;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px 36px 0 40px;
+        .nameProj {
+            display: flex;
+            h1 {
+                font-size: 45px;
+                font-weight: 400;
+                line-height: 120%;
+                margin: 0;
+            }
+            h1:first-child {
+                color: #00d632;
+            }
+            h1:last-child {
+                color: white;
+            }
+        }
+        .myBlock {
+            width: 431px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logIn {
+                cursor: pointer;
+                padding: 10px 29px;
+                background-color: #1d1f27;
+                border-radius: 50px;
+                h2 {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #ffffff;
+                    text-align: center;
+                }
+            }
+            .logIn:hover {
+                background-color: #23252e;
+            }
+        }
+        .myBlockAct {
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logIn {
+                padding: 8px 29px;
+                background-color: #1d1f27;
+                border-radius: 50px;
+                cursor: pointer;
+                h2 {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 16px;
+                    width: 90px;
+
+                    color: #ffffff;
+                    text-align: center;
+                }
+            }
+            .logIn:hover {
+                background-color: #23252e;
+            }
+            .inFoBal {
+                display: flex;
+                align-items: center;
+                margin-left: 20px;
+                span {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #addc7b;
+                    margin-right: 12px;
+                }
+                h1 {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    margin-right: 12px;
+                }
+                img {
+                    margin-right: 12px;
+                }
+                h2 {
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ff8663;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .wrapHead {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .wrapHead {
+            padding: 12px 16px 0 20px;
+            .nameProj {
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    //----------------------------------------------------------------------------------------------------------------
+
+    //Mobile Version
+    .wrapMobileVersion {
+        padding: 12px 0;
+        display: none;
+        width: 100vw;
+        position: relative;
+        background-color: #1d1f25;
+        display: flex;
+        justify-content: space-between;
+        z-index: 2;
+        align-items: center;
+        .wrapImgasd {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            img {
+                width: 34px;
+                height: 34px;
+                // margin-right: 62px;
+            }
+            .opacityNaNull {
+                opacity: 0;
+            }
+        }
+        .fullNAv {
+            .burgerMenu {
+                position: relative;
+                cursor: pointer;
+                z-index: 30;
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                background-color: #191b21;
+                margin-left: 15px;
+                .burgerMenu_lines,
+                .burgerMenu_lines::after,
+                .burgerMenu_lines::before {
+                    position: absolute;
+                    width: 18px;
+                    height: 2px;
+                    background-color: white;
+                }
+                .burgerMenu_lines {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .burgerMenu_lines::before {
+                    content: "";
+                    top: -6px;
+                    transition: 0.2s;
+                }
+                .burgerMenu_lines::after {
+                    content: "";
+                    top: 6px;
+                    transition: 0.2s;
+                }
+            }
+            .burgerMenu:hover {
+                .burgerMenu_lines {
+                    filter: brightness(0.7);
+                }
+            }
+            .burgerMenu_active {
+                .burgerMenu_lines {
+                    background-color: transparent;
+                }
+                .burgerMenu_lines::after {
+                    top: 3px;
+                    transform: rotate(45deg);
+                    transition: 0.2s;
+                    width: 10px;
+                    left: 3px;
+                }
+                .burgerMenu_lines::before {
+                    top: -3px;
+                    transform: rotate(-45deg);
+                    transition: 0.2s;
+                    width: 10px;
+                    left: 3px;
+                }
+            }
+
+            .boxShad_act {
+                background-color: rgba(0, 0, 0, 0.596);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                transition: 1s;
+            }
+
+            .burgerMenu_nav {
+                padding-top: 40px;
+                top: 0;
+                position: fixed;
+                z-index: 20;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                background-color: #1e1f25;
+                width: 325px;
+                left: -200%;
+                transition: 0.5s;
+                .wrapLinkBlock {
+                    padding-left: 15px;
+                    margin-top: 40px;
+                    display: flex;
+                    align-items: center;
+
+                    a {
+                        opacity: 1;
+                        visibility: visible;
+                        transition: 1s;
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 120%;
+                        color: #767ea2;
+                        margin-left: 15px;
+                    }
+                    button {
+                        opacity: 1;
+                        visibility: visible;
+                        transition: 1s;
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 120%;
+                        color: #767ea2;
+                        margin-left: 15px;
+                    }
+                }
+                .footMobileVers {
+                    position: fixed;
+                    bottom: 0;
+                    margin-bottom: 5vh;
+                    margin-left: 15px;
+                    .imgLink {
+                        margin-bottom: 24px;
+                        img {
+                            margin-left: 15px;
+                        }
+                        img:first-child {
+                            margin: 0;
+                        }
+                    }
+                }
+                .noneAct {
+                    display: none;
+                }
+                .imgHedBurg {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin: -30px 0 0 0vw;
+                    .asdads {
+                        align-self: center;
+                        align-items: center;
+                        img:first-child {
+                            margin-right: 66px;
+                            width: 34px;
+                            height: 34px;
+                        }
+                        img:last-child {
+                            margin-right: 15px;
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+            .burgerMenu_nav_active {
+                left: 0;
+            }
+        }
+        .lastelement {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            width: 90px;
+            justify-content: space-between;
+        }
+    }
+}
+@media (min-width: 1201px) {
+    .fullWrapHead {
+        .wrapMobileVersion {
+            display: none;
+        }
+    }
+}
+@media screen and(max-height:520px) {
+    .fullWrapHead {
+        .wrapMobileVersion {
+            .fullNAv {
+                .burgerMenu_nav {
+                    padding-top: 40px;
+                    top: 0;
+                    position: fixed;
+                    z-index: 20;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    background-color: #1e1f25;
+                    width: 525px;
+                    transition: 0.5s;
+                    .wrapFullBlock {
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        .wrapnav {
+                            margin-bottom: 23px;
+                            .wrapLinkBlock {
+                                padding-left: 15px;
+                                margin-top: 40px;
+                                display: flex;
+                                align-items: center;
+
+                                a {
+                                    opacity: 1;
+                                    visibility: visible;
+                                    transition: 1s;
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                    line-height: 120%;
+                                    color: #767ea2;
+                                    margin-left: 15px;
+                                }
+                                button {
+                                    opacity: 1;
+                                    visibility: visible;
+                                    transition: 1s;
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                    line-height: 120%;
+                                    color: #767ea2;
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                        .footMobileVers {
+                            position: relative;
+                            bottom: 0;
+                            margin-bottom: 5vh;
+                            margin-right: 20px;
+                            .imgLink {
+                                margin-bottom: 24px;
+                                img {
+                                    margin-left: 15px;
+                                }
+                                img:first-child {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

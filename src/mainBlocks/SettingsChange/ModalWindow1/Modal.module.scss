@@ -1,0 +1,187 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    animation-name: appear;
+    animation-duration: 300ms;
+    .modalDialog {
+        width: 100%;
+        border-radius: 15px;
+        max-width: 422px;
+        background: #1e1f25;
+        position: relative;
+        margin: 0 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slide-in;
+        animation-duration: 0.5s;
+
+        .block {
+            padding: 24px 30px 24px 24px;
+            .tytleModal {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span {
+                    font-weight: 200;
+                    font-size: 22px;
+                    line-height: 120%;
+                    color: #ffffff;
+                }
+                img {
+                    filter: brightness(0.5);
+                    cursor: pointer;
+                    padding: 4px;
+                }
+                img:hover {
+                    filter: brightness(1);
+                }
+            }
+            hr {
+                margin-top: 24px;
+                margin-bottom: 26px;
+                height: 1px;
+                border: 0;
+                background-color: #34384c;
+            }
+            .wrapSeachScroll {
+                background-color: #191b21;
+                // padding-right: 50px;
+
+                border-radius: 12px;
+                padding: 18px 16px 20px 16px;
+                overflow-y: inherit;
+                .seachTok {
+                    max-height: 350px;
+                    overflow-y: auto;
+                    .MyInput {
+                        max-width: 368px;
+                        background-color: #0b0c0e;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        padding: 19px 0 19px 22px;
+                        margin-right: 16px;
+                        input {
+                            border: none;
+                            font-weight: 600;
+                            font-size: 17px;
+                            line-height: 20px;
+                            color: #858585;
+                            background-color: #0b0c0e;
+                            box-sizing: content-box;
+                            width: 100%;
+                        }
+                        input:active,
+                        :hover,
+                        :focus {
+                            outline: 0;
+                            outline-offset: 0;
+                        }
+                        button {
+                            background-color: #0b0c0e;
+                            border: none;
+                            cursor: pointer;
+                            margin-right: 20px;
+                            img {
+                                width: 20px;
+                            }
+                        }
+                    }
+                    .Tokens {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        border-radius: 12px;
+                        cursor: pointer;
+                        span {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #ffffff;
+                            margin-left: 12px;
+                        }
+                        img {
+                            border: 2px solid #2d2f36;
+                            border-radius: 50%;
+                        }
+                    }
+                    .Tokens:hover {
+                        background-color: #2d2f36;
+                    }
+                }
+                .seachTok::-webkit-scrollbar {
+                    width: 4px;
+                    background-color: #34384c;
+                    border-radius: 50px;
+                }
+                .seachTok::-webkit-scrollbar-thumb {
+                    background-color: #00d632;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slide-in {
+    from {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media screen and(max-width:768px) {
+    .modal {
+        .modalDialog {
+            .block {
+                padding: 20px 16px;
+                hr {
+                    margin-top: 16px;
+                    margin-bottom: 18px;
+                }
+                .wrapSeachScroll {
+                    .seachTok {
+                        .MyInput {
+                            padding: 15px 0 10px 10px;
+                            input {
+                                font-size: 16px;
+                            }
+                            button {
+                                margin-right: 10px;
+                            }
+                        }
+                        .Tokens {
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

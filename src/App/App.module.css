@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("../SFProDisplay-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+* {
+  font-family: "SFProDisplay-Regular";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.App .mainBlock {
+  width: 100%;
+  font-weight: 400;
+}
+/*# sourceMappingURL=App.module.css.map */

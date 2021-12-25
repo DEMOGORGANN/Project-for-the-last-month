@@ -1,0 +1,425 @@
+.WrapBurger {
+  background-color: #1e1f25;
+  max-width: 180px;
+  padding: 30px 0 100vh 30px;
+  width: 100%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.WrapBurger .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.WrapBurger .navBar img {
+  padding: 10px;
+}
+
+.WrapBurger .navBar .HeadLogo {
+  width: 40px;
+}
+
+.WrapBurger .navBar .imgCloseWind img {
+  height: 11px;
+  width: 7px;
+  padding: 14px 16px;
+  background-color: #191b21;
+  border-radius: 12px;
+  margin-top: 50px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.WrapBurger .navBar .imgCloseWind img:hover {
+  background-color: #0b0c0e;
+}
+
+.WrapBurger .navBar .wrapLinkBlock {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.WrapBurger .navBar .wrapLinkBlock span {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.WrapBurger .navBar .wrapLinkBlock span:hover {
+  color: #415ace;
+}
+
+.WrapBurger .navBar .wrapLinkBlock button {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.WrapBurger .navBar .wrapLinkBlock img {
+  cursor: default;
+}
+
+.WrapBurger .navBar .darklVers {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+.WrapBurger .navBar .darklVers span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-left: 17px;
+  line-height: 120%;
+  color: #767ea2;
+}
+
+.WrapBurger .navBar .darklVers img {
+  cursor: default;
+}
+
+.WrapBurger .navBar .darklVers:hover span {
+  color: #415ace;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.WrapBurger .navBar .darklVers:hover img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.WrapBurger .footBlockMen {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 3vh;
+  opacity: 1;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.WrapBurger .footBlockMen .footImgA {
+  width: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.WrapBurger .footBlockMen .footImgA a img {
+  -webkit-box-shadow: 0 0 0 1px #5d6588;
+          box-shadow: 0 0 0 1px #5d6588;
+  border-radius: 50%;
+}
+
+.WrapBurger .footBlockMen .footImgA a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.WrapBurger .footBlockMen .footImgA a img:not(hover) {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.WrapBurger .footBlockMen .footImgA a img span {
+  cursor: pointer;
+}
+
+.WrapBurger_notActive {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  background-color: #1e1f25;
+  max-width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 0 100vh 30px;
+  width: 100%;
+}
+
+.WrapBurger_notActive .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.WrapBurger_notActive .navBar img {
+  padding: 10px;
+}
+
+.WrapBurger_notActive .navBar img:hover {
+  background-color: #0b0c0e;
+  border-radius: 5px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.WrapBurger_notActive .navBar img:not(hover) {
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.WrapBurger_notActive .navBar .HeadLogo {
+  width: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.WrapBurger_notActive .navBar .imgCloseWind img {
+  height: 11px;
+  width: 7px;
+  padding: 14px 16px;
+  background-color: #191b21;
+  border-radius: 12px;
+  margin-top: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.WrapBurger_notActive .navBar .imgCloseWind img:hover {
+  background-color: #0b0c0e;
+}
+
+.WrapBurger_notActive .navBar .wrapLinkBlock {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.WrapBurger_notActive .navBar .wrapLinkBlock span {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+}
+
+.WrapBurger_notActive .navBar .wrapLinkBlock button {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+}
+
+.WrapBurger_notActive .navBar .darklVers {
+  margin-top: 150px;
+}
+
+.WrapBurger_notActive .navBar .darklVers span {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.WrapBurger_notActive .footBlockMen {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5vh;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.WrapBurger_notActive .footBlockMen .footImgA {
+  width: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip {
+  position: relative;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .wrapSelectLang {
+  cursor: pointer;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 31px 10px 24px;
+  background-color: #191b21;
+  border-radius: 50px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .wrapSelectLang img:first-child {
+  width: 28px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .wrapSelectLang img:last-child {
+  width: 9.5px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .wrapSelectLang span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 135px;
+  background-color: #0b0c0e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .tooltiptext .wrapsButs {
+  width: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 8px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .tooltiptext .wrapsButs img {
+  width: 28px;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0b0c0e transparent transparent transparent;
+}
+
+.WrapBurger_notActive .footBlockMen .tooltip:hover .tooltiptext {
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1200px) {
+  .WrapBurger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .WrapBurger {
+    max-width: 150px;
+    padding: 30px 0 100vh 30px;
+  }
+}
+
+@media screen and (max-width: 1441px) and (min-width: 1300px) {
+  .WrapBurger {
+    padding: 30px 10vw 100vh 30px;
+  }
+}
+/*# sourceMappingURL=burgerMenu.module.css.map */

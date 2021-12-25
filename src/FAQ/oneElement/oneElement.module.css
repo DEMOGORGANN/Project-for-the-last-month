@@ -1,0 +1,79 @@
+.wrapFAQElem {
+  margin-top: 24px;
+}
+
+.wrapFAQElem .nameRules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapFAQElem .nameRules .accordion {
+  cursor: pointer;
+  width: 100%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.wrapFAQElem .nameRules .accordion:hover {
+  color: #f0d9d9;
+}
+
+.wrapFAQElem .active {
+  margin-top: 16px;
+}
+
+.wrapFAQElem .active span {
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wrapFAQElem .elem {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.wrapFAQElem .elem.transform {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.wrapFAQElem hr {
+  height: 1px;
+  border: 0;
+  background-color: #34384c;
+  margin: 0;
+}
+
+.wrapFAQElem .panel {
+  display: none;
+}
+
+.wrapFAQElem:first-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapFAQElem {
+    margin-top: 16px;
+  }
+  .wrapFAQElem .nameRules .accordion {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .wrapFAQElem .active span {
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.65);
+  }
+}
+/*# sourceMappingURL=oneElement.module.css.map */

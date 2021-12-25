@@ -1,0 +1,69 @@
+.wrapFAQElem {
+    margin-top: 24px;
+    .nameRules {
+        display: flex;
+        align-items: center;
+        .accordion {
+            cursor: pointer;
+            width: 100%;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 120%;
+            color: #ffffff;
+            font-weight: 500;
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+        .accordion:hover{
+            color:#f0d9d9
+        }
+    }
+    .active {
+        margin-top: 16px;
+        span {
+            font-size: 16px;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.65);
+        }
+    }
+
+    .elem {
+        transition: all 0.2s linear;
+    }
+    .elem.transform {
+        transform: rotate(180deg);
+    }
+
+    hr {
+        height: 1px;
+        border: 0;
+        background-color: #34384c;
+        margin: 0;
+    }
+
+    .panel {
+        display: none;
+    }
+}
+.wrapFAQElem:first-child {
+    margin: 0;
+}
+
+@media screen and(max-width:768px) {
+    .wrapFAQElem {
+        margin-top: 16px;
+        .nameRules {
+            .accordion {
+                font-size: 16px;
+                margin-bottom: 14px;
+            }
+        }
+        .active {
+            span {
+                font-size: 14px;
+                line-height: 150%;
+                color: rgba(255, 255, 255, 0.65);
+            }
+        }
+    }
+}

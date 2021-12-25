@@ -1,0 +1,496 @@
+.wrapCoin .Tat {
+  margin-top: 50px;
+}
+
+.wrapCoin .Tat .wrapTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapCoin .Tat .wrapTitle h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.wrapCoin .Tat .wrapTitle a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #5d6588;
+  text-decoration: none;
+}
+
+.wrapCoin .Tat .wrapTitle a:hover {
+  color: #4c5eaf;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrapCoin .Tat .wrapTitle a:not(hover) {
+  color: #5d6588;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrapCoin .Tat .wrapCoinList {
+  margin-top: 20px;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: auto;
+  background-color: #1e1f25;
+  border-radius: 12px 12px 0 0;
+  padding: 18px 5px 20px 5px;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList {
+  padding-bottom: 18px;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #34384c;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+  width: 100px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child img {
+  vertical-align: super;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList button {
+  opacity: 0;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList button button {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #5d6588;
+  border: none;
+  border-radius: 12px;
+  background-color: #21242c;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid #34384c;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span img {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+  font-size: 12px;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(n + 4):nth-child(-n + 7) {
+  color: #addc7b;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element button {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #5d6588;
+  border: none;
+  border-radius: 12px;
+  background-color: #21242c;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element button:hover {
+  background-color: #16171b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element button:not(hover) {
+  background-color: #21242c;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element:hover {
+  background-color: #282931;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element:not(hover) {
+  background-color: #1e1f25;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.wrapCoin .NavPageCoin {
+  background-color: #1e1f25;
+  border-radius: 0 0 12px 12px;
+  padding: 20px 32px 25px 0;
+}
+
+.wrapCoin .NavPageCoin .sad {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapCoin .NavPageCoin .sad .kovVoPage {
+  cursor: pointer;
+  margin-right: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapCoin .NavPageCoin .sad .kovVoPage span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.48);
+  margin-right: 15px;
+}
+
+.wrapCoin .NavPageCoin .sad .kovVoPage .AlngSent {
+  height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapCoin .NavPageCoin .sad .kovVoPage .AlngSent img {
+  margin-right: 30px;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.wrapCoin .NavPageCoin .sad .kovVoPage:hover .AlngSent img {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock {
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.48);
+  margin-right: 24px;
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock .changePage img {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock .changePage img:last-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock .changePage img:first-child {
+  margin-right: 30px;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.wrapCoin .NavPageCoin .sad .wrapRightBlock .changePage img:hover {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin {
+    padding: 18px 14px 0px 14px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-size: 12px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span img {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapCoin .Tat .wrapCoinList {
+    overflow-x: auto;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor {
+    min-width: 1140px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #1e1f25;
+    border-radius: 12px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList {
+    min-width: 190px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    padding-left: 20px;
+    left: 4vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:nth-child(2) {
+    margin-left: 15vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+    min-width: 190px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    left: 4vw;
+    padding-left: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(2) {
+    margin-left: 15vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element:hover {
+    background-color: #1e1f25;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element:hover span {
+    background-color: #1e1f25;
+  }
+  .wrapCoin .Tat .wrapCoinList::-webkit-scrollbar {
+    height: 2px;
+    background-color: #34384c;
+    border-radius: 50px;
+  }
+  .wrapCoin .Tat .wrapCoinList::-webkit-scrollbar-thumb {
+    background-color: #00d632;
+    border-radius: 50px;
+  }
+  .wrapCoin .NavPageCoin {
+    background-color: #1e1f25;
+    border-radius: 0 0 12px 12px;
+    padding: 20px 20px 25px 20px;
+  }
+  .wrapCoin .NavPageCoin .sad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .wrapCoin .Tat .wrapTitle h1 {
+    font-size: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    left: 5vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    left: 5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapCoin .Tat {
+    margin-top: 30px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList {
+    min-width: 190px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    width: 130px;
+    position: absolute;
+    background-color: #1e1f25;
+    padding-left: 20px;
+    left: 2.8vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:nth-child(2) {
+    margin-left: 25vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+    min-width: 190px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    width: 130px;
+    position: absolute;
+    background-color: #1e1f25;
+    left: 2.8vw;
+    padding-left: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child img {
+    margin-right: 20px;
+    margin-left: 28px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(2) {
+    margin-left: 25vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapCoin .Tat .wrapTitle h1 {
+    font-size: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    padding-left: 20px;
+    left: 3.9vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:nth-child(2) {
+    margin-left: 55vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+    min-width: 190px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    left: 3.9vw;
+    padding-left: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(2) {
+    margin-left: 55vw;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .wrapCoin .Tat .wrapTitle h1 {
+    font-size: 20px;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    left: 4.6vw;
+  }
+  .wrapCoin .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    left: 4.6vw;
+  }
+}
+/*# sourceMappingURL=Pools.module.css.map */

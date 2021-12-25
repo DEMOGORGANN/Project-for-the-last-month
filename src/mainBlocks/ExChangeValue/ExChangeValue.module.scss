@@ -1,0 +1,217 @@
+.exchangeValue {
+    background-color: #1e1f25;
+    border-radius: 12px;
+    max-width: 360px;
+    padding: 24px 24px 29px 24px;
+    .exChange {
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px;
+        img {
+            padding: 12.5px;
+            background-color: #191b21;
+            border-radius: 12px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        img:not(hover) {
+            transform: rotate(180deg);
+            transition: 0.5s;
+            background-color: #191a1f;
+        }
+        img:hover {
+            transform: rotate(0deg);
+            transition: 0.3s;
+        }
+        span {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 120%;
+            color: #ffffff;
+            margin-left: 14px;
+        }
+    }
+
+    .desc {
+        span {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.65);
+        }
+        margin-bottom: 24px;
+    }
+    hr {
+        border: 1px solid #34384c;
+    }
+    .SupportedNetworks {
+        display: flex;
+        align-items: center;
+        margin-top: 14px;
+        span {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.65);
+            margin-right: 9px;
+        }
+    }
+    .Network {
+        .ActivBlock {
+            margin-top: 17px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background-color: #191b21;
+            border-radius: 12px;
+            justify-content: space-between;
+            padding: 8px 16px;
+            transition: 0.2s;
+            .wrapLogoName {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 30px;
+                    border: 2px solid #2d2f36;
+                    border-radius: 50%;
+                }
+                span {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    margin-left: 12px;
+                }
+            }
+            .centrH2 {
+                width: 80px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                h2 {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #5d6588;
+                    background-color: #21242c;
+                    padding: 10px 15px;
+                    border-radius: 12px;
+                }
+            }
+        }
+        .oneBlock {
+            margin-top: 17px;
+            transition: 0.2s;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 16px;
+            border-radius: 12px;
+            .wrapLogoName {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 30px;
+                    border: 2px solid #2d2f36;
+                    border-radius: 50%;
+                }
+                span {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    margin-left: 12px;
+                }
+            }
+
+            .centrH2 {
+                width: 80px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                h2 {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #5d6588;
+                    padding: 10px 15px;
+                    border-radius: 12px;
+                    text-align: center;
+                }
+            }
+        }
+        .oneBlock:hover {
+            background-color: #282931;
+        }
+    }
+}
+
+@media screen and(max-width:768px) {
+    .exchangeValue {
+        padding: 20px 20px 30px 20px;
+        .Network {
+            .oneBlock {
+                padding: 9px 16px 10px 16px;
+                .centrH2 {
+                    h2 {
+                        padding: 5px 16px;
+                    }
+                }
+            }
+            .ActivBlock {
+                padding: 9px 16px 10px 16px;
+                .centrH2 {
+                    h2 {
+                        padding: 5px 16px;
+                    }
+                }
+            }
+        }
+        .exChange {
+            span {
+                font-size: 20px;
+            }
+        }
+        .SupportedNetworks {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1400px) {
+    .exchangeValue {
+        max-width: 1200px;
+        width: 100%;
+    }
+}
+@media screen and(min-width:1441px) {
+    .exchangeValue {
+        max-width: 30vw;
+        width: 100%;
+        margin-right: 24px;
+    }
+}
+@media screen and(width:1440px) {
+    .exchangeValue {
+        max-width: 360px;
+        width: 100%;
+        margin-right: 24px;
+        max-width: none;
+    }
+}
+// @media screen and(min-width:1023px) {
+//     .exchangeValue {
+//         // height: 100%;
+//     }
+// }
+// @media screen and(max-width:1281px) {
+//     .exchangeValue {
+//         max-width: 1200px;
+//         width: 100%;
+//     }
+// }

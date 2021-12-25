@@ -1,0 +1,57 @@
+.wrapFAQElem {
+  margin-top: 24px;
+}
+
+.wrapFAQElem .nameRules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.wrapFAQElem .nameRules .accordion {
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.wrapFAQElem hr {
+  border: 1px solid #34384c;
+  margin: 0;
+}
+
+.wrapFAQElem .wrapInfoFaQ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapFAQElem .wrapInfoFaQ span {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapFAQElem {
+    margin-top: 16px;
+  }
+  .wrapFAQElem .nameRules .accordion {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=oneElement.module.css.map */
